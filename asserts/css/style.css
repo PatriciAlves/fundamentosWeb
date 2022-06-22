@@ -1,0 +1,93 @@
+/*Estilos da Page Index.html*/
+
+.center {
+    text-align: center;
+}
+
+.justfy {
+    text-align: justify;
+    font-size: 30px;
+    color: rgba(45, 6, 56, 0.984);
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: deeppink;
+}
+
+.p-30 {
+    padding: 30px;
+    font-size: 22px;
+}
+
+.titulo {
+    background-color: rgb(244, 165, 205);
+    color: rgb(79, 51, 54);
+    text-align: center;
+    font-size: 300%;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.foto {
+    max-width:20px;
+    max-height:15px;
+    width: auto;
+    height: auto;
+}
+
+
+/*Estilos da Page Index.html*/
+
+/*Estilos da page contatos*/
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+
+/*Estilos da page contatos*/
+
+/*Estilos page receitas*/
+
+.top {
+    position: relative;
+    top: 1px;
+
+
+}
