@@ -34,3 +34,22 @@ function validaEmail(){
             alert('Preencha os campos corretamente 😪')
         }
     }
+    function validaAssunto() {
+        let txtAssunto = document.querySelector('#txtAssunto')
+        if (assunto.value.length < 15 || assunto.value.length > 1000) {
+            txtAssunto.innerHTML = 'Escreva mais para vovó, no minimo 15 caracteres!'
+            txtAssunto.style.color = 'red'
+            assuntoOk = false
+        } else {
+            txtAssunto.innerHTML = "❤"
+            txtAssunto.style.color = 'red'
+            assuntoOk = true
+        }
+    }
+    function enviar() {
+        if (nomeOk == true && emailOk == true && assuntoOk == true) {
+            alert('Mensagem enviada com sucesso')
+        } else {
+            alert('Você precisa preencher os campos corretamente.')
+        }
+    }
